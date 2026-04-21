@@ -1,210 +1,193 @@
-# [Vue Material Dashboard 2](http://demos.creative-tim.com/vue-material-dashboard-2/#/?ref=readme-vmd2) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/vue-material-dashboard-2&text=Check%20Vue%20Material%20Dashboard%202%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#materialdesign%20#vue%20https://www.creative-tim.com/product/vue-material-dashboard)
+# 반도체 공정수 Lot 추적 대시보드
 
-![version](https://img.shields.io/badge/version-3.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/vue-material-dashboard-2.svg)](https://github.com/creativetimofficial/vue-material-dashboard-2/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/vue-material-dashboard-2.svg)](https://github.com/creativetimofficial/vue-material-dashboard-2/issues?q=is%3Aissue+is%3Aclosed)
+**Semiconductor Ultra-Pure Water Quality & Lot Traceability Dashboard**
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/596/original/vue-material-dashboard-2.jpg)
+> React 18 + MUI v5 기반 엔지니어링 대시보드.  
+> 두 생산 라인(**REF** vs **COMP**)의 공정수 수질을 실시간 비교 분석합니다.
 
-Vue Material Dashboard 2 is our newest free Admin Template based on Vue3 & Bootstrap5. If you’re a developer looking to create an admin dashboard that is developer-friendly, rich with features, and highly customisable, here is your match. Our innovative Vue3 & Bootstrap5 dashboard comes with a beautiful design inspired by Google's Material Design and it will help you create stunning websites & web apps to delight your clients
+![Dashboard Preview](./docs/dashboard-preview.svg)
 
-**Fully Coded Elements**
+---
 
-Vue Material Dashboard 2 is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using sass files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
+## 빠른 시작 (Quick Start)
 
-This free Vue3 & Bootstrap5 Dashboard is coming with prebuilt design blocks, so the development process is seamless,
-switching from our pages to the real website is very easy to be done.
-
-View [all components here](https://www.creative-tim.com/learning-lab/vue/alerts/material-dashboard/).
-
-**Documentation built by Developers**
-
-Each element is well presented in very complex documentation.
-
-You can read more about the [documentation here](https://www.creative-tim.com/learning-lab/vue/overview/material-dashboard/).
-
-**Example Pages**
-
-If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
-
-View [example pages here](https://demos.creative-tim.com/vue-material-dashboard-2/#/).
-
-**HELPFUL LINKS**
-
-- View [Github Repository](https://github.com/creativetimofficial/vue-material-dashboard-2)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
-
-#### Special thanks
-
-During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
-
-- [Popper.js](https://popper.js.org/) - Kickass library used to manage poppers
-- [Charts Js](https://www.chartjs.org/) - Simple yet flexible JavaScript charting for designers & developers
-- [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Vue Material Dashboard 2. You can use it to gain insights into your sources of traffic.
-
-Let us know your thoughts below. And good luck with development!
-
-## Table of Contents
-
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
-
-## Versions
-
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-material-dashboard-2?ref=readme-vmd2)
-
-| VueJS |
-| ----- |
-
-| [![Vue Material Dashboard 2](https://s3.amazonaws.com/creativetim_bucket/products/596/thumb/vue-material-dashboard-2.jpg)](http://demos.creative-tim.com/vue-material-dashboard-2/?ref=readme-vmd2)
-
-## Demo
-
-- [Profile](https://demos.creative-tim.com/vue-material-dashboard-2/#/profile?ref=readme-vmd2)
-- [Sign In](https://demos.creative-tim.com/vue-material-dashboard-2/#/sign-in?ref=readme-vmd2)
-- [Sign Up](https://demos.creative-tim.com/vue-material-dashboard-2/#/sign-up?ref=readme-vmd2)
-
-[View More](https://demos.creative-tim.com/vue-material-dashboard-2/#/dashboard?ref=readme-vmd2).
-
-## Quick start
-
-Quick start options:
-
-- Download from [Creative Tim](https://www.creative-tim.com/product/vue-material-dashboard-2?ref=readme-vmd2).
-
-## Terminal Commands
-
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root ./ directory of the product and run `yarn install` or `npm install` to install our local dependencies.
-
-## Documentation
-
-The documentation for the Material Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/vue/overview/material-dashboard/?ref=readme-vmd2).
-
-### What's included
-
-Within the download you'll find the following directories and files:
-
-```
-vue-material-dashboard-2
-    ├── public
-    │   ├── favicon.png
-    │   └── index.html
-    ├── src
-    │   ├── assets
-    │   │   ├── css
-    │   │   ├── fonts
-    │   │   ├── img
-    │   │   ├── js
-    │   │   └── scss
-    │   ├── components
-    │   │   ├── MaterialAlert.vue
-    │   │   ├── MaterialAvatar.vue
-    │   │   ├── MaterialBadge.vue
-    │   │   ├── MaterialButton.vue
-    │   │   ├── MaterialCheckbox.vue
-    │   │   ├── MaterialInput.vue
-    │   │   ├── MaterialPagination.vue
-    │   │   ├── MaterialPaginationItem.vue
-    │   │   ├── MaterialProgress.vue
-    │   │   ├── MaterialRadio.vue
-    │   │   ├── MaterialSnackbar.vue
-    │   │   ├── MaterialSwitch.vue
-    │   │   └── MaterialTextarea.vue
-    │   ├── examples
-    │   │   ├── Cards
-    │   │   ├── Charts
-    │   │   ├── Navbars
-    │   │   ├── PageLayout
-    │   │   ├── Sidenav
-    │   │   ├── Breadcrumbs.vue
-    │   │   ├── Configurator.vue
-    │   │   └── Footer.vue
-    │   ├── router
-    │   ├── store
-    │   ├── views
-    │   │   ├── components
-    │   │   ├── Billing.vue
-    │   │   ├── Dashboard.vue
-    │   │   ├── Home.vue
-    │   │   ├── Notification.vue
-    │   │   ├── Profile.vue
-    │   │   ├── Rtl.vue
-    │   │   ├── Sales.vue
-    │   │   ├── SignIn.vue
-    │   │   ├── SignUp.vue
-    │   │   └── Tables.vue
-    │   ├── App.vue
-    │   ├── main.js
-    │   └── material-dashboard.js
-    ├── .browserslistrc
-    ├── .eslintrc.js
-    ├── .gitignore
-    ├── babel.config.json
-    ├── CHANGELOG.md
-    ├── ISSUE_TEMPLATE.md
-    ├── package.json
-    └── README.md
+```bash
+git clone <repo-url>
+cd vue-materia
+npm install
+npm run dev
 ```
 
-## Browser Support
+브라우저에서 `http://localhost:5173` 접속 → 대시보드 바로 확인.
 
-At present, we officially aim to support the last two versions of the following browsers:
+> **Node.js 18+** 필요. `package-lock.json` 포함되어 있으므로 `npm install` 만으로 동일한 의존성 설치 보장.
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+---
 
-## Resources
+## 대시보드 구성
 
-- [Live Preview](https://demos.creative-tim.com/vue-material-dashboard-2/#/?ref=readme-vmd2)
-- [Download Page](https://www.creative-tim.com/product/vue-material-dashboard-2?ref=readme-vmd2)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/vue/overview/material-dashboard/?ref=readme-vmd2)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-vmd2)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-vmd2)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-vue-material-dashboard-2-pro/issues)
-- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  Header: 라인 범례 (■ REF | ■ COMP)  +  현재 시각                  │
+├─────────────┬─────────────┬─────────────┬──────────────────────────┤
+│  처리 Lot수 │  평균 저항  │  오염 이벤트│  UPW 사용량              │
+│  REF | COMP │  REF | COMP │  REF | COMP │  REF | COMP   △차이%    │
+├─────────────┴──────┬──────┴─────────────┴──────────────────────────┤
+│  저항율 트렌드      │  TOC 트렌드         │  공정구역별 오염 이벤트 │
+│  (12개월, MΩ·cm)  │  (12개월, ppb)      │  (그룹 막대, 건)        │
+│  REF ─── COMP ---  │  REF ─── COMP ---   │  REF ■  COMP ■          │
+│  ─ ─ 스펙 하한선   │  ─ ─ 스펙 상한선    │                         │
+├────────────────────┴─────────────────────┴──────────────────────────┤
+│  Lot 추적 로그  [전체] [REF] [COMP]                                 │
+│  라인 | Lot ID | 공정단계 | 수종 | TOC | 저항 | 입자수 | 상태 | 시각│
+│  스펙 초과 셀 → 적색 강조                                           │
+├──────────────────────────────────────────┬──────────────────────────┤
+│  (Lot 테이블 계속)                        │  알람 / 이벤트           │
+│                                          │  ● [COMP] TOC 초과       │
+│                                          │  ⚠ [COMP] 입자수 초과   │
+│                                          │  ✓ [REF]  필터 검사 통과 │
+└──────────────────────────────────────────┴──────────────────────────┘
+```
 
-## Reporting Issues
+### 섹션별 설명
 
-We use GitHub Issues as the official bug tracker for the Vue Material Dashboard 2. Here are some advices for our users that want to report an issue:
+| 섹션 | 내용 |
+|------|------|
+| **KPI 카드** | REF / COMP 수치를 나란히 표시. 퍼센트 차이와 우위 라인 자동 계산 |
+| **저항율 트렌드** | 12개월 일평균 MΩ·cm — 스펙 하한(18.0) 참조선 포함 |
+| **TOC 트렌드** | 12개월 일평균 ppb — 스펙 상한(1.0) 참조선 포함 |
+| **오염 이벤트** | 공정 구역(Etch / CMP / 세정 / 린스 / 확산 / 포토)별 그룹 막대 |
+| **Lot 추적 테이블** | 전체·REF·COMP 탭 필터. TOC > 1.0 / 저항 < 18.0 / 입자수 > 5 → 셀 적색 강조 |
+| **알람 패널** | 심각도(error / warning / info / success) + 라인 태그 이벤트 목록 |
 
-1. Make sure that you are using the latest version of the Vue Material Dashboard 2. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/vue-material-dashboard-2?ref=readme-vmd2).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+---
 
-## Technical Support or Questions
+## REF vs COMP 비교 설계
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-vmd2) instead of opening an issue.
+모든 시각화 요소에 일관된 색상 체계를 적용합니다.
 
-## Licensing
+| 구분 | 색상 | 적용 |
+|------|------|------|
+| **REF 라인** | `#42A5F5` (파란색) | KPI 수치, 차트 실선, 테이블 좌측 보더, 알람 칩 |
+| **COMP 라인** | `#FFA726` (주황색) | KPI 수치, 차트 점선, 테이블 좌측 보더, 알람 칩 |
+| **Pass** | `#4CAF50` (녹색) | 상태 칩 |
+| **Fail / 초과** | `#F44336` (빨간색) | 상태 칩, 스펙 초과 셀 배경 |
+| **진행중** | `#42A5F5` (파란색) | 상태 칩 |
 
-- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-vmd2)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-vmd2)
+---
 
-## Useful Links
+## UPW 스펙 기준 (SEMI F57)
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-vmd2) from Creative Tim
+| 파라미터 | 단위 | 한계 | 비고 |
+|----------|------|------|------|
+| 저항율 | MΩ·cm | ≥ 18.0 | 미달 시 셀 적색 |
+| TOC | ppb | ≤ 1.0 | 초과 시 셀 적색 |
+| 입자수 (≥0.05 µm) | /mL | ≤ 5 | 초과 시 셀 적색 |
+| 박테리아 | CFU/mL | ≤ 0.001 | |
+| 실리카 (SiO₂) | ppb | ≤ 0.5 | |
+| 용존 산소 | ppb | ≤ 100 | |
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+---
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-vmd2) from Creative Tim
+## 기술 스택
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-vmd2) (earn money)
+| 역할 | 라이브러리 | 버전 |
+|------|-----------|------|
+| UI 프레임워크 | React | 18.2 |
+| 컴포넌트 라이브러리 | MUI (Material UI) | 5.x |
+| 차트 | Recharts | 2.x |
+| 라우팅 | React Router | 6.x |
+| 빌드 도구 | Vite | 5.x |
 
-##### Social Media
+---
 
-Twitter: <https://twitter.com/CreativeTim>
+## 프로젝트 구조
 
-Facebook: <https://www.facebook.com/CreativeTim>
+```
+src/
+├── main.jsx                    # React 진입점
+├── App.jsx                     # 라우터 설정
+├── theme.js                    # MUI 다크 테마 + REF/COMP 색상 정의
+├── data/
+│   └── mockData.js             # Lot 데이터, 알람, 차트 시계열, 스펙 상수
+├── components/
+│   ├── KpiCard.jsx             # REF/COMP 나란히 표시 + 차이% 계산
+│   ├── WaterQualityChart.jsx   # 저항율·TOC 트렌드 (Recharts LineChart)
+│   ├── ContaminationChart.jsx  # 공정구역별 오염 이벤트 (Recharts BarChart)
+│   ├── AlarmPanel.jsx          # 심각도별 이벤트 목록
+│   └── LotTraceTable.jsx       # 탭 필터 + 스펙 초과 셀 강조 테이블
+└── pages/
+    └── WaterDashboard.jsx      # 전체 레이아웃 조립
+```
 
-Dribbble: <https://dribbble.com/creativetim>
+---
 
-Google+: <https://plus.google.com/+CreativetimPage>
+## 데이터 커스터마이징
 
-Instagram: <https://instagram.com/creativetimofficial>
+실제 공정 데이터로 교체하려면 `src/data/mockData.js`를 수정합니다.
+
+### Lot 데이터 구조
+
+```js
+export const lots = [
+  {
+    id: 'REF-0451',         // Lot ID
+    line: 'REF',            // 'REF' | 'COMP'
+    stage: 'Pre-Etch 린스', // 공정 단계명
+    waterType: 'UPW',       // 'UPW' | 'DIW'
+    toc: 0.3,               // ppb
+    resistivity: 18.2,      // MΩ·cm
+    particles: 2,           // /mL
+    status: 'Pass',         // 'Pass' | 'Fail' | '진행중'
+    timestamp: '04-20 08:12',
+  },
+];
+```
+
+### 스펙 한계 수정
+
+```js
+export const SPEC = {
+  toc:         { max: 1.0,  unit: 'ppb',   label: 'TOC' },
+  resistivity: { min: 18.0, unit: 'MΩ·cm', label: '저항' },
+  particles:   { max: 5,    unit: '/mL',   label: '입자수' },
+};
+```
+
+### KPI 항목 수정
+
+```js
+export const KPI = {
+  lots: {
+    label: '처리 Lot 수',
+    unit: '',
+    icon: 'inventory_2',
+    REF: 642,
+    COMP: 587,
+    higherIsBetter: true,   // true → REF가 높으면 우위(녹색)
+  },
+  // ...
+};
+```
+
+---
+
+## 빌드 & 배포
+
+```bash
+# 프로덕션 빌드
+npm run build
+# dist/ 폴더 생성 — 정적 파일 서버 또는 Nginx로 서빙 가능
+
+# 빌드 결과 로컬 미리보기
+npm run preview
+```
+
+---
+
+## 브랜치
+
+| 브랜치 | 내용 |
+|--------|------|
+| `claude/semiconductor-water-dashboard-c8cWM` | 현재 개발 브랜치 |
+| `main` | 원본 Vue Material Dashboard (참조용) |

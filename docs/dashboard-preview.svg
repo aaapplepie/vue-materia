@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="'Roboto Mono', 'Courier New', monospace">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1520"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="960" height="560" fill="#0a0e1a" rx="10"/>
+
+  <!-- ── HEADER ── -->
+  <rect x="0" y="0" width="960" height="44" fill="url(#hdr)" rx="10"/>
+  <rect x="0" y="34" width="960" height="10" fill="url(#hdr)"/>
+  <rect x="0" y="43" width="960" height="1" fill="#1E2A3A"/>
+  <circle cx="22" cy="22" r="7" fill="#29B6F6" opacity=".9"/>
+  <text x="36" y="27" fill="#E8EAF0" font-size="13" font-weight="700">반도체 공정수 Lot 추적 대시보드</text>
+  <text x="36" y="39" fill="#8892A4" font-size="9">Ultra-Pure Water Quality &amp; Lot Traceability</text>
+  <!-- legend -->
+  <rect x="660" y="13" width="22" height="3" fill="#42A5F5" rx="2"/>
+  <rect x="688" y="11" width="60" height="18" fill="rgba(66,165,245,0.15)" rx="4"/>
+  <text x="692" y="23" fill="#42A5F5" font-size="9" font-weight="700">REF 라인</text>
+  <rect x="760" y="13" width="10" height="3" fill="#FFA726" rx="2"/>
+  <rect x="772" y="13" width="6" height="3" fill="#FFA726" rx="2" opacity=".4"/>
+  <rect x="784" y="11" width="68" height="18" fill="rgba(255,167,38,0.15)" rx="4"/>
+  <text x="788" y="23" fill="#FFA726" font-size="9" font-weight="700">COMP 라인</text>
+  <text x="870" y="23" fill="#566272" font-size="8" font-family="monospace">2026-04-20</text>
+
+  <!-- ── SECTION LABEL 1 ── -->
+  <text x="16" y="63" fill="#566272" font-size="8" letter-spacing="1">▸  KPI 비교 요약 — REF vs COMP</text>
+
+  <!-- ── KPI CARDS (4) ── -->
+  <!-- Card 1 -->
+  <rect x="12"   y="68" width="222" height="80" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="22" y="82"  fill="#8892A4" font-size="8" letter-spacing="1">처리 LOT 수</text>
+  <text x="22" y="108" fill="#42A5F5" font-size="22" font-weight="700">642</text>
+  <text x="22" y="119" fill="#42A5F5" font-size="7">REF</text>
+  <line x1="92" y1="96" x2="92" y2="120" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="100" y="108" fill="#FFA726" font-size="22" font-weight="700">587</text>
+  <text x="100" y="119" fill="#FFA726" font-size="7">COMP</text>
+  <text x="175" y="102" fill="#8892A4" font-size="7">△ 차이</text>
+  <text x="175" y="113" fill="#4CAF50" font-size="10" font-weight="700">+9.4%</text>
+  <text x="175" y="122" fill="#4CAF50" font-size="7">REF 우위</text>
+
+  <!-- Card 2 -->
+  <rect x="246"  y="68" width="222" height="80" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="256" y="82"  fill="#8892A4" font-size="8" letter-spacing="1">평균 저항 (MΩ·CM)</text>
+  <text x="256" y="108" fill="#42A5F5" font-size="22" font-weight="700">18.2</text>
+  <text x="256" y="119" fill="#42A5F5" font-size="7">REF</text>
+  <line x1="326" y1="96" x2="326" y2="120" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="334" y="108" fill="#FFA726" font-size="22" font-weight="700">17.9</text>
+  <text x="334" y="119" fill="#FFA726" font-size="7">COMP</text>
+  <text x="408" y="102" fill="#8892A4" font-size="7">△ 차이</text>
+  <text x="408" y="113" fill="#4CAF50" font-size="10" font-weight="700">+1.7%</text>
+  <text x="408" y="122" fill="#4CAF50" font-size="7">REF 우위</text>
+
+  <!-- Card 3 -->
+  <rect x="480"  y="68" width="222" height="80" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="490" y="82"  fill="#8892A4" font-size="8" letter-spacing="1">오염 이벤트 (건)</text>
+  <text x="490" y="108" fill="#42A5F5" font-size="22" font-weight="700">23</text>
+  <text x="490" y="119" fill="#42A5F5" font-size="7">REF</text>
+  <line x1="545" y1="96" x2="545" y2="120" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="553" y="108" fill="#FFA726" font-size="22" font-weight="700">37</text>
+  <text x="553" y="119" fill="#FFA726" font-size="7">COMP</text>
+  <text x="622" y="102" fill="#8892A4" font-size="7">△ 차이</text>
+  <text x="622" y="113" fill="#F44336" font-size="10" font-weight="700">-37.8%</text>
+  <text x="622" y="122" fill="#F44336" font-size="7">REF 우위</text>
+
+  <!-- Card 4 -->
+  <rect x="714"  y="68" width="234" height="80" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="724" y="82"  fill="#8892A4" font-size="8" letter-spacing="1">UPW 사용량 (L/일)</text>
+  <text x="724" y="108" fill="#42A5F5" font-size="18" font-weight="700">22,640</text>
+  <text x="724" y="119" fill="#42A5F5" font-size="7">REF</text>
+  <line x1="815" y1="96" x2="815" y2="120" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="823" y="108" fill="#FFA726" font-size="18" font-weight="700">22,590</text>
+  <text x="823" y="119" fill="#FFA726" font-size="7">COMP</text>
+  <text x="896" y="113" fill="#4CAF50" font-size="7">-0.2%</text>
+
+  <!-- ── SECTION LABEL 2 ── -->
+  <text x="16" y="168" fill="#566272" font-size="8" letter-spacing="1">▸  수질 트렌드 분석 — REF vs COMP  /  12개월</text>
+
+  <!-- ── CHART CARDS (3) ── -->
+  <!-- Chart 1: Resistivity -->
+  <rect x="12"  y="174" width="308" height="160" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="22" y="188" fill="#8892A4" font-size="8" letter-spacing="1">저항율 트렌드 (MΩ·CM)</text>
+  <text x="22" y="198" fill="#566272" font-size="7">REF vs COMP  /  스펙 하한: 18.0 MΩ·cm</text>
+  <!-- axes -->
+  <line x1="46" y1="208" x2="46" y2="318" stroke="#1E2A3A" stroke-width="1"/>
+  <line x1="46" y1="318" x2="308" y2="318" stroke="#1E2A3A" stroke-width="1"/>
+  <!-- spec line -->
+  <line x1="46" y1="270" x2="308" y2="270" stroke="#F44336" stroke-width="1" stroke-dasharray="4 3" opacity=".7"/>
+  <text x="250" y="267" fill="#F44336" font-size="7">MIN 18.0</text>
+  <!-- REF line (above spec) -->
+  <polyline points="56,258 82,252 108,248 134,256 160,244 186,240 212,248 238,252 264,244 290,248" fill="none" stroke="#42A5F5" stroke-width="2"/>
+  <!-- COMP line (near/below spec) -->
+  <polyline points="56,278 82,272 108,265 134,275 160,270 186,274 212,278 238,268 264,270 290,272" fill="none" stroke="#FFA726" stroke-width="2" stroke-dasharray="5 3"/>
+  <!-- legend -->
+  <line x1="56" y1="332" x2="74" y2="332" stroke="#42A5F5" stroke-width="2"/>
+  <text x="77" y="335" fill="#42A5F5" font-size="7">REF</text>
+  <line x1="102" y1="332" x2="120" y2="332" stroke="#FFA726" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="123" y="335" fill="#FFA726" font-size="7">COMP</text>
+
+  <!-- Chart 2: TOC -->
+  <rect x="330" y="174" width="308" height="160" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="340" y="188" fill="#8892A4" font-size="8" letter-spacing="1">TOC 트렌드 (PPB)</text>
+  <text x="340" y="198" fill="#566272" font-size="7">REF vs COMP  /  스펙 상한: 1.0 ppb</text>
+  <line x1="364" y1="208" x2="364" y2="318" stroke="#1E2A3A" stroke-width="1"/>
+  <line x1="364" y1="318" x2="626" y2="318" stroke="#1E2A3A" stroke-width="1"/>
+  <!-- spec line -->
+  <line x1="364" y1="258" x2="626" y2="258" stroke="#F44336" stroke-width="1" stroke-dasharray="4 3" opacity=".7"/>
+  <text x="568" y="255" fill="#F44336" font-size="7">MAX 1.0</text>
+  <!-- REF line (below spec — good) -->
+  <polyline points="374,286 400,282 426,290 452,278 478,286 504,290 530,282 556,286 582,290 608,282" fill="none" stroke="#42A5F5" stroke-width="2"/>
+  <!-- COMP line (at/above spec — bad) -->
+  <polyline points="374,270 400,262 426,252 452,266 478,248 504,262 530,258 556,244 582,266 608,262" fill="none" stroke="#FFA726" stroke-width="2" stroke-dasharray="5 3"/>
+  <line x1="374" y1="332" x2="392" y2="332" stroke="#42A5F5" stroke-width="2"/>
+  <text x="395" y="335" fill="#42A5F5" font-size="7">REF</text>
+  <line x1="420" y1="332" x2="438" y2="332" stroke="#FFA726" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="441" y="335" fill="#FFA726" font-size="7">COMP</text>
+
+  <!-- Chart 3: Contamination Bar -->
+  <rect x="648" y="174" width="300" height="160" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="658" y="188" fill="#8892A4" font-size="8" letter-spacing="1">공정 구역별 오염 이벤트 (건)</text>
+  <text x="658" y="198" fill="#566272" font-size="7">REF vs COMP  /  당월 누적</text>
+  <line x1="672" y1="208" x2="672" y2="308" stroke="#1E2A3A" stroke-width="1"/>
+  <line x1="672" y1="308" x2="935" y2="308" stroke="#1E2A3A" stroke-width="1"/>
+  <!-- Bars: Etch CMP 세정 린스 확산 포토 -->
+  <!-- REF=blue, COMP=orange, groups -->
+  <!-- Etch: REF=3, COMP=5 -->
+  <rect x="680" y="278" width="8" height="30" fill="#42A5F5" rx="2"/>
+  <rect x="690" y="258" width="8" height="50" fill="#FFA726" rx="2"/>
+  <!-- CMP: REF=8, COMP=6 -->
+  <rect x="718" y="248" width="8" height="60" fill="#42A5F5" rx="2"/>
+  <rect x="728" y="258" width="8" height="50" fill="#FFA726" rx="2"/>
+  <!-- 세정: REF=2, COMP=4 -->
+  <rect x="756" y="284" width="8" height="24" fill="#42A5F5" rx="2"/>
+  <rect x="766" y="272" width="8" height="36" fill="#FFA726" rx="2"/>
+  <!-- 린스: REF=1, COMP=3 -->
+  <rect x="794" y="290" width="8" height="18" fill="#42A5F5" rx="2"/>
+  <rect x="804" y="278" width="8" height="30" fill="#FFA726" rx="2"/>
+  <!-- 확산: REF=5, COMP=7 -->
+  <rect x="832" y="268" width="8" height="40" fill="#42A5F5" rx="2"/>
+  <rect x="842" y="252" width="8" height="56" fill="#FFA726" rx="2"/>
+  <!-- 포토: REF=4, COMP=2 -->
+  <rect x="870" y="272" width="8" height="36" fill="#42A5F5" rx="2"/>
+  <rect x="880" y="284" width="8" height="24" fill="#FFA726" rx="2"/>
+  <!-- x labels -->
+  <text x="680" y="320" fill="#8892A4" font-size="7">Etch</text>
+  <text x="717" y="320" fill="#8892A4" font-size="7">CMP</text>
+  <text x="753" y="320" fill="#8892A4" font-size="7">세정</text>
+  <text x="792" y="320" fill="#8892A4" font-size="7">린스</text>
+  <text x="830" y="320" fill="#8892A4" font-size="7">확산</text>
+  <text x="869" y="320" fill="#8892A4" font-size="7">포토</text>
+  <rect x="660" y="327" width="7" height="7" fill="#42A5F5" rx="1"/>
+  <text x="670" y="334" fill="#42A5F5" font-size="7">REF</text>
+  <rect x="694" y="327" width="7" height="7" fill="#FFA726" rx="1"/>
+  <text x="704" y="334" fill="#FFA726" font-size="7">COMP</text>
+
+  <!-- ── SECTION LABEL 3 ── -->
+  <text x="16" y="354" fill="#566272" font-size="8" letter-spacing="1">▸  Lot 추적 로그 &amp; 알람</text>
+
+  <!-- ── LOT TABLE ── -->
+  <rect x="12"  y="360" width="636" height="182" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <!-- tab bar -->
+  <rect x="22" y="372" width="40" height="16" fill="rgba(66,165,245,0.2)" rx="3"/>
+  <text x="27" y="383" fill="#E8EAF0" font-size="8" font-weight="700">전체</text>
+  <rect x="66" y="372" width="28" height="16" fill="rgba(66,165,245,0.1)" rx="3"/>
+  <text x="72" y="383" fill="#42A5F5" font-size="8" font-weight="700">REF</text>
+  <rect x="98" y="372" width="36" height="16" fill="rgba(255,167,38,0.1)" rx="3"/>
+  <text x="103" y="383" fill="#FFA726" font-size="8" font-weight="700">COMP</text>
+  <!-- table header -->
+  <rect x="12" y="390" width="636" height="16" fill="#0d1520"/>
+  <text x="22"  y="400" fill="#8892A4" font-size="7" letter-spacing=".5">라인</text>
+  <text x="60"  y="400" fill="#8892A4" font-size="7" letter-spacing=".5">LOT ID</text>
+  <text x="148" y="400" fill="#8892A4" font-size="7" letter-spacing=".5">공정 단계</text>
+  <text x="278" y="400" fill="#8892A4" font-size="7" letter-spacing=".5">수종</text>
+  <text x="318" y="400" fill="#8892A4" font-size="7" letter-spacing=".5">TOC(ppb)</text>
+  <text x="380" y="400" fill="#8892A4" font-size="7" letter-spacing=".5">저항(MΩ)</text>
+  <text x="440" y="400" fill="#8892A4" font-size="7" letter-spacing=".5">입자(/mL)</text>
+  <text x="498" y="400" fill="#8892A4" font-size="7" letter-spacing=".5">상태</text>
+  <text x="548" y="400" fill="#8892A4" font-size="7" letter-spacing=".5">시각</text>
+  <!-- row 1 REF pass -->
+  <rect x="12" y="406" width="3" height="16" fill="#42A5F5"/>
+  <rect x="56" y="408" width="26" height="12" fill="rgba(66,165,245,0.15)" rx="2"/>
+  <text x="59" y="417" fill="#42A5F5" font-size="7" font-weight="700">REF</text>
+  <text x="90"  y="417" fill="#E8EAF0" font-size="7">REF-0451</text>
+  <text x="148" y="417" fill="#E8EAF0" font-size="7">Pre-Etch 린스</text>
+  <text x="278" y="417" fill="#29B6F6" font-size="7">UPW</text>
+  <text x="320" y="417" fill="#4CAF50" font-size="7">0.3</text>
+  <text x="382" y="417" fill="#4CAF50" font-size="7">18.2</text>
+  <text x="443" y="417" fill="#E8EAF0" font-size="7">2</text>
+  <rect x="494" y="409" width="28" height="11" fill="rgba(76,175,80,0.15)" rx="2"/>
+  <text x="497" y="417" fill="#4CAF50" font-size="7" font-weight="700">Pass</text>
+  <text x="548" y="417" fill="#566272" font-size="7">08:12</text>
+  <!-- row 2 COMP fail (red) -->
+  <rect x="12" y="422" width="3" height="16" fill="#FFA726"/>
+  <rect x="56" y="424" width="34" height="12" fill="rgba(255,167,38,0.15)" rx="2"/>
+  <text x="59" y="433" fill="#FFA726" font-size="7" font-weight="700">COMP</text>
+  <text x="90"  y="433" fill="#E8EAF0" font-size="7">CMP-0452</text>
+  <text x="148" y="433" fill="#E8EAF0" font-size="7">CMP 세정</text>
+  <text x="278" y="433" fill="#29B6F6" font-size="7">UPW</text>
+  <rect x="312" y="425" width="26" height="11" fill="rgba(244,67,54,0.15)" rx="2"/>
+  <text x="316" y="433" fill="#F44336" font-size="7" font-weight="700">1.2</text>
+  <rect x="374" y="425" width="28" height="11" fill="rgba(244,67,54,0.15)" rx="2"/>
+  <text x="378" y="433" fill="#F44336" font-size="7" font-weight="700">17.7</text>
+  <rect x="434" y="425" width="22" height="11" fill="rgba(244,67,54,0.15)" rx="2"/>
+  <text x="438" y="433" fill="#F44336" font-size="7" font-weight="700">6</text>
+  <rect x="494" y="425" width="24" height="11" fill="rgba(244,67,54,0.15)" rx="2"/>
+  <text x="497" y="433" fill="#F44336" font-size="7" font-weight="700">Fail</text>
+  <text x="548" y="433" fill="#566272" font-size="7">08:38</text>
+  <!-- more rows indicator -->
+  <text x="300" y="462" fill="#566272" font-size="9" text-anchor="middle">· · · 20개 Lot 레코드  /  스펙 초과 셀 적색 강조  /  전체·REF·COMP 탭 필터 · · ·</text>
+
+  <!-- ── ALARM PANEL ── -->
+  <rect x="658" y="360" width="290" height="182" fill="#111827" rx="7" stroke="#1E2A3A" stroke-width="1"/>
+  <text x="668" y="374" fill="#8892A4" font-size="8" letter-spacing="1">알람 / 이벤트</text>
+  <rect x="810" y="363" width="52" height="14" fill="rgba(255,167,38,0.15)" rx="3"/>
+  <text x="815" y="373" fill="#FFA726" font-size="7" font-weight="700">COMP 5건</text>
+  <rect x="866" y="363" width="46" height="14" fill="rgba(66,165,245,0.15)" rx="3"/>
+  <text x="871" y="373" fill="#42A5F5" font-size="7" font-weight="700">REF 3건</text>
+  <!-- alert rows -->
+  <!-- error -->
+  <rect x="668" y="382" width="14" height="14" fill="rgba(244,67,54,0.15)" rx="3"/>
+  <text x="671" y="392" fill="#F44336" font-size="8">✕</text>
+  <rect x="686" y="384" width="28" height="10" fill="rgba(255,167,38,0.15)" rx="2"/>
+  <text x="689" y="392" fill="#FFA726" font-size="6" font-weight="700">COMP</text>
+  <text x="717" y="392" fill="#E8EAF0" font-size="7">TOC 초과 — CMP-0456</text>
+  <text x="686" y="400" fill="#566272" font-size="6.5">TOC 2.1 ppb (한계: 1.0) — Post-Etch 린스</text>
+  <!-- warning -->
+  <rect x="668" y="407" width="14" height="14" fill="rgba(255,167,38,0.12)" rx="3"/>
+  <text x="671" y="417" fill="#FFA726" font-size="8">⚠</text>
+  <rect x="686" y="409" width="28" height="10" fill="rgba(255,167,38,0.15)" rx="2"/>
+  <text x="689" y="417" fill="#FFA726" font-size="6" font-weight="700">COMP</text>
+  <text x="717" y="417" fill="#E8EAF0" font-size="7">입자수 초과 — CMP-0452</text>
+  <text x="686" y="425" fill="#566272" font-size="6.5">6 /mL (한계: 5) — CMP 세정</text>
+  <!-- info -->
+  <rect x="668" y="432" width="14" height="14" fill="rgba(41,182,246,0.10)" rx="3"/>
+  <text x="672" y="442" fill="#29B6F6" font-size="8">ℹ</text>
+  <rect x="686" y="434" width="22" height="10" fill="rgba(66,165,245,0.15)" rx="2"/>
+  <text x="689" y="442" fill="#42A5F5" font-size="6" font-weight="700">REF</text>
+  <text x="711" y="442" fill="#E8EAF0" font-size="7">폴리셔 재생 완료</text>
+  <text x="686" y="450" fill="#566272" font-size="6.5">Loop-1 이온교환수지 재생 정상 완료</text>
+  <!-- success -->
+  <rect x="668" y="457" width="14" height="14" fill="rgba(76,175,80,0.10)" rx="3"/>
+  <text x="671" y="467" fill="#4CAF50" font-size="8">✓</text>
+  <rect x="686" y="459" width="22" height="10" fill="rgba(66,165,245,0.15)" rx="2"/>
+  <text x="689" y="467" fill="#42A5F5" font-size="6" font-weight="700">REF</text>
+  <text x="711" y="467" fill="#E8EAF0" font-size="7">필터 무결성 검사 통과</text>
+  <text x="686" y="475" fill="#566272" font-size="6.5">0.2 µm POU 필터 버블포인트 정상</text>
+  <text x="720" y="530" fill="#566272" font-size="7" text-anchor="middle">· · · 총 8건 표시 · · ·</text>
+
+  <!-- ── SPEC LEGEND ── -->
+  <rect x="12" y="548" width="936" height="1" fill="#1E2A3A"/>
+  <circle cx="24"  cy="556" r="3" fill="#4CAF50"/>
+  <text x="30"  y="559" fill="#566272" font-size="7">저항 ≥ 18.0 MΩ·cm</text>
+  <circle cx="150" cy="556" r="3" fill="#4CAF50"/>
+  <text x="156" y="559" fill="#566272" font-size="7">TOC ≤ 1.0 ppb</text>
+  <circle cx="248" cy="556" r="3" fill="#4CAF50"/>
+  <text x="254" y="559" fill="#566272" font-size="7">입자수 ≤ 5 /mL</text>
+  <circle cx="348" cy="556" r="3" fill="#F44336"/>
+  <text x="354" y="559" fill="#566272" font-size="7">스펙 초과 → 셀 적색 강조</text>
+  <text x="800" y="559" fill="#1E2A3A" font-size="7">React 18 + MUI v5 + Recharts</text>
+</svg>
